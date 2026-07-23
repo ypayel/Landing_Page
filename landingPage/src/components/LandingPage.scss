@@ -1,3 +1,9 @@
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .main-container-landing {
   display: flex;
   flex-direction: column;
@@ -7,16 +13,42 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  width: 100%;
+  min-height: 400px;
+  background-image: url("bg-header-desktop.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.header-landing {
+  font-size: 36px;
+}
+.header-text-landing {
+  width: 65%;
+  text-align: center;
 }
 .header-text-container-landing {
   display: flex;
   align-items: center;
   flex-direction: column;
 }
+.button-container-landing,
+.button-clipboard-container-landing {
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+}
 .first-header-text-container-landing {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+.first-header-landing,
+.second-header-landing,
+.third-header-text-landing,
+.clipboard-header-landing {
+  font-size: 28px;
 }
 .first-prs-container-landing {
   display: flex;
@@ -33,6 +65,10 @@
   height: auto;
   display: block;
 }
+.first-text-landing {
+  width: 42%;
+  text-align: center;
+}
 .first-prs-text-header-landing {
   display: flex;
   flex-direction: column;
@@ -45,6 +81,13 @@
   margin-left: 40px;
   margin-right: 40px;
 }
+.first-prs-text-landing-quick,
+.first-prs-text-landing-history {
+  width: 55%;
+}
+.first-prs-text-landing-icloud {
+  width: 45%;
+}
 .second-container-landing {
   display: flex;
   flex-direction: column;
@@ -54,6 +97,13 @@
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+.second-text-landing {
+  width: 41%;
+  text-align: center;
+}
+.second-image-landing {
+  width: 95%;
 }
 .third-header-container {
   display: flex;
@@ -65,9 +115,90 @@
   flex-direction: row;
   align-items: center;
 }
-.third-desc-landing {
+.thrid-desc-container-landing {
   width: 50%;
+}
+.third-desc-landing {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+.third-desc-image-landing {
+  width: 34px;
+  height: 34px;
+}
+.third-desc.text {
+  width: 50%;
+  text-align: center;
+}
+
+.third-desc-text-sneak {
+  width: 75%;
+  text-align: center;
+}
+.sponsor-container-landing {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 145px;
+  height: 49px;
+  margin-top: 80px;
+}
+.sponsor-images-google,
+.sponsor-images-ibm {
+  width: 165px;
+  height: 49px;
+}
+.sponsor-images-microsoft {
+  width: 165px;
+  height: 40px;
+}
+
+.sponsor-images-hp {
+  width: 165px;
+  height: 55px;
+}
+.sponsor-images-vector {
+  width: 165px;
+}
+.clipboard-container-landing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.clipboard-text-landing {
+  width: 65%;
+  text-align: center;
+}
+
+.footer-container-landing {
+  background-color: hsl(201, 11%, 66%);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 100px;
+  width: 100%;
+  justify-content: center;
+  margin-top: 80px;
+}
+
+.footer-info-container-landing {
+  display: flex;
+  flex-direction: row;
+  gap: 120px;
+}
+
+.footer-image-logo-landing {
+  width: 48px;
+  height: 48px;
+  gap: 26px;
+}
+
+.footer-media-container-landing {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
 }

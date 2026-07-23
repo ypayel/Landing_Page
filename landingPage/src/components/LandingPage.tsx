@@ -1,3 +1,4 @@
+
 import "./LandingPage.scss";
 export const LandingPage = () => {
   return (
@@ -6,7 +7,7 @@ export const LandingPage = () => {
         <div className="header-container-landing">
           <div className="header-text-container-landing">
             <h3 className="header-landing">A history of everything you copy</h3>
-            <p>
+            <p className="header-text-landing">
               Clipboard allows you to track and organize everything you copy,
               instantly access your clipboard on all your devices.
             </p>
@@ -42,20 +43,20 @@ export const LandingPage = () => {
             <div className="first-prs-text-header-landing">
             <div className="first-prs-text-container-landing">
               <h3 className="first-prs-header-landing">Quick Search</h3>
-              <p className="first-prs-text-landing">
+              <p className="first-prs-text-landing-quick">
                 Easily search your snippets by content, category, web address,
                 applications, and more
               </p>
             </div>
             <div className="first-prs-text-container-landing">
               <h3 className="first-prs-header-landing">ICloud Sync</h3>
-              <p className="first-prs-text-landing">
+              <p className="first-prs-text-landing-icloud">
                 Instantly saves and syncs across all your devices.
               </p>
             </div>
             <div className="first-prs-text-container-landing">
               <h3 className="first-prs-header-landing">Complete History</h3>
-              <p className="first-prs-text-landing">
+              <p className="first-prs-text-landing-history">
                 Retrieve any snippets from the first moment you started using
                 the app.
               </p>
@@ -123,7 +124,7 @@ export const LandingPage = () => {
                 className="third-desc-image-landing"
               />
               <h3 className="third-desc-header">Sneak preview</h3>
-              <p className="third-desc-text">
+              <p className="third-desc-text-sneak">
                 Quick preview of all snippets on your Clipboard for easy access.
               </p>
             </div>
@@ -173,11 +174,17 @@ export const LandingPage = () => {
             className="footer-image-logo-landing"
           />
           <div className="footer-info-container-landing">
+            <div className="info-landing">
             <p className="footer-info-landing">FAQs</p>
             <p className="footer-info-landing">Contact Us</p>
+            </div>
+            <div className="info-landing">
             <p className="footer-info-landing">Privacy Policy</p>
             <p className="footer-info-landing">Press Kit</p>
+            </div>
+            <div className="info-landing">
             <p className="footer-info-landing">Install Guide</p>
+            </div>
           </div>
           <div className="footer-media-container-landing">
             <img
