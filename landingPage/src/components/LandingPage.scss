@@ -39,6 +39,47 @@ body {
   flex-direction: row;
   gap: 25px;
 }
+
+.button-container-landing {
+  width: 20%;
+}
+
+.button-clipboard-container-landing {
+  width: 41%;
+}
+
+.button-ios-landing,
+.button-mac-landing,
+.button-clipboard-ios-landing,
+.button-clipboard-mac-landing {
+  border-radius: 20px;
+  border-style: none;
+  color: white;
+  font-size: 15px;
+  min-height: 40px;
+  width: 80%;
+  cursor: pointer;
+  transition: 0.2 ease;
+}
+.button-ios-landing,
+.button-clipboard-ios-landing {
+  background-color: hsl(171, 66%, 44%);
+  box-shadow: 0px 4px 14px hsl(171, 66%, 73%);
+}
+.button-mac-landing,
+.button-clipboard-mac-landing {
+  background-color: hsl(233, 100%, 69%);
+  box-shadow: 0px 4px 14px hsl(201, 11%, 78%);
+}
+
+.button-mac-landing:hover,
+.button-clipboard-mac-landing:hover {
+  box-shadow: 4px 4px 18px hsl(233, 100%, 69%);
+}
+.button-ios-landing:hover,
+.button-clipboard-ios-landing:hover {
+  box-shadow: 4px 4px 18px hsl(171, 66%, 44%);
+}
 .first-header-text-container-landing {
   display: flex;
   flex-direction: column;
@@ -201,4 +242,23 @@ body {
   display: flex;
   flex-direction: row;
   gap: 35px;
+}
+.footer-info-landing {
+  cursor: pointer;
+  color: #4c545c;
+  transition: color 0.2s ease;
+}
+
+.footer-info-landing:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.image-media-landing {
+  color: #4c545c;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.image-media-landing:hover {
+  color: hsl(171, 66%, 44%);
 }
